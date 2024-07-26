@@ -1,6 +1,6 @@
 # Nexus [```live```](https://nexus-chirag-khaitan.vercel.app)
 
-Nexus is a real-time chat whiteboard collabaration application built using Next.js 14, ShadcnUi, Convex, Liveblocks, Clerk and various other modern web technologies and tools to provide a seamless and engaging user experience.
+Nexus is a real-time whiteboard collabaration application built using Next.js 14, ShadcnUi, Convex, Liveblocks, Clerk and various other modern web technologies and tools to provide a seamless and engaging user experience.
 
 ![Nexus](/public/thumbnail.png "Nexus")
 
