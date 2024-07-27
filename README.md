@@ -1,36 +1,56 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Nexus [```live```](https://nexus-chirag-khaitan.vercel.app)
 
-## Getting Started
+Nexus is a real-time whiteboard collabaration application built using Next.js 14, ShadcnUi, Convex, Liveblocks, Clerk and various other modern web technologies and tools to provide a seamless and engaging user experience.
 
-First, run the development server:
+![Nexus](/public/thumbnail.png "Nexus")
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Technologies Used
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+-   **Convex**
+  
+-   **Clerk** 
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+-   **Liveblocks**
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+-   **Next.js 14** 
 
-## Learn More
+-   **ShadcnUi**
 
-To learn more about Next.js, take a look at the following resources:
+## Features:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- 🛠️ Whiteboard from scratch
+- 🧰 Toolbar with Text, Shapes, Sticky Notes & Pencil
+- 🪄 Layering functionality
+- 🎨 Coloring system
+- ↩️ Undo & Redo functionality
+- ⌨️ Keyboard shortcuts
+- 🤝 Real-time collaboration
+- 💾 Real-time database
+- 🔐 Auth, organisations and invites
+- ⭐️ Favoriting functionality
+- 🌐 Next.js 14 framework
+- 💅 TailwindCSS & ShadcnUI styling
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Contributing
 
-## Deploy on Vercel
+Contributions are welcome! If you have any suggestions or find any issues, please feel free to open an issue or a pull request. 
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Contact
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+If you wish to connect with me, you can reach out through the following channels:
+
+<div align="center">
+  <a href="https://www.linkedin.com/in/chirag-khaitan" target="_blank">
+    <img alt="LinkedIn" src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  
+  <a href="mailto:chiragkhaitan2014@gmail.com" target="_blank">
+    <img alt="Email" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+  
+  <a href="https://www.instagram.com/thechiragkhaitan" target="_blank">
+    <img alt="Instagram" src="https://img.shields.io/badge/Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
+  </a>
+</div>
+
+© 2024 Chirag Khaitan
