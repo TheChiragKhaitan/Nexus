@@ -16,6 +16,7 @@ import { SelectionTools } from "./selection-tools";
 import Path from "./path";
 import { useDisableScrollBounce } from "@/hooks/use-disable-scroll-bounce";
 import { useDeleteLayers } from "@/hooks/use-delete-layers";
+import { ResetCamera } from "./reset-camera";
 
 const MAX_LAYERS = 100;
 const MULTISELECTION_THRESHOLD = 5;
@@ -41,6 +42,12 @@ const Canvas = ({boardId}: CanvasProps) => {
     const history = useHistory()
     const canUndo = useCanUndo()
     const canRedo = useCanRedo()
+
+
+
+    const resetCamera = useCallback(() => {
+        setCamera({ x: 0, y: 0 });
+    }, []);
 
 
 
@@ -390,6 +397,9 @@ const Canvas = ({boardId}: CanvasProps) => {
             <Info boardId={boardId} />
             <Participants />
             <Toolbar canvasState={canvasState} setCanvasState={setCanvasState} canRedo={canRedo} canUndo={canUndo} undo={history.undo} redo={history.redo} />
+            {(camera.x != 0 || camera.y != 0) && (
+                <ResetCamera resetCamera={resetCamera} />
+            )}
             <SelectionTools camera = {camera} setLastUsedColour = {setLastUsedColour} />
             <svg 
                 className="h-[100vh] w-[100vw]" 
